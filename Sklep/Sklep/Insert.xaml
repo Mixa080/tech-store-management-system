@@ -1,0 +1,524 @@
+﻿<Window 
+    x:Class="Sklep.Insert"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:av="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="av" 
+    Title="LoginView" Height="550" Width="556"
+    WindowStyle="None"
+    ResizeMode="NoResize"
+    WindowStartupLocation="CenterScreen"
+    Background="Transparent"
+    AllowsTransparency="True"
+    >
+
+    <Border CornerRadius="12">
+        <Border CornerRadius="10"                    
+                BorderThickness="2"
+                Opacity="0.95" Margin="0,10,0,0" Background="#FF131725">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="White" Offset="0"/>
+                    <GradientStop Color="#FF43A073" Offset="0.75"/>
+                    <GradientStop Color="#FF00FF84" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="74"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    Foreground="DarkGray"
+                    FontSize="25"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"
+                    HorizontalAlignment="Center" Margin="0,30,0,0"><Run Language="ru-ru" Text="Додавання товару"/></TextBlock>
+                <Button x:Name="btnLogin"                          
+                        BorderThickness="0"
+                        Content="Додати"
+                        Foreground="White"
+                        FontSize="12"
+                        FontFamily="Montserrat"
+                        Cursor="Hand"                           
+                        Margin="102,391,102,10" Grid.Row="1" Click="btnADD_Click">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#FF398E4A"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#28AEED"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="150" Height="40"
+                                    CornerRadius="20"
+                                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="0,15,0,0"/>
+
+                <Grid HorizontalAlignment="Left" Height="5" Margin="286,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="23"/>
+                <TextBlock
+                    Foreground="LightGray"
+                    FontSize="12"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"
+                    TextWrapping="Wrap"
+                    TextAlignment="Center"
+                    Margin="138,10,138,432" Grid.Row="1"><Run Text="Заповн"/><Run Text="і"/><Run Text="ть данн"/><Run Text="і"/></TextBlock>
+                <ScrollViewer Margin="25,28,21,89" Grid.Row="1" Grid.Column="0">
+                    <StackPanel>
+                        <TextBlock
+                        Foreground="DarkGray"
+                        FontSize="12"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"                             
+                        Margin="0,35,0,0"><Run Language="uk-ua" Text="Назва"/></TextBlock>
+
+                        <TextBox x:Name="Product_Name"
+                      FontSize="13"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"                            
+                      Foreground="White"
+                      CaretBrush="LightGray"
+                      BorderBrush="DarkGray"
+                      BorderThickness="0,0,0,2"
+                      Height="28"
+                      VerticalContentAlignment="Center"
+                      Margin="0,5,0,0"
+                      Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                         Stretch="None"
+                         AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+  Foreground="DarkGray"
+  FontSize="12"
+  FontWeight="Medium"
+  FontFamily="Montserrat"                             
+  Margin="0,35,0,0"><Run Language="uk-ua" Text="Модель"/></TextBlock>
+                        <TextBox x:Name="Model"
+FontSize="13"
+FontWeight="Medium"
+FontFamily="Montserrat"                            
+Foreground="White"
+CaretBrush="LightGray"
+BorderBrush="DarkGray"
+BorderThickness="0,0,0,2"
+Height="28"
+VerticalContentAlignment="Center"
+Margin="0,5,0,0"
+Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+   Stretch="None"
+   AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+                      Foreground="DarkGray"
+                      FontSize="12"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"                             
+                      Margin="0,35,0,0"><Run Language="uk-ua" Text="Технічні характеристики"/></TextBlock>
+                        <TextBlock
+   Foreground="DarkGray"
+   FontSize="12"
+   FontWeight="Medium"
+   FontFamily="Montserrat"                             
+   Margin="0,35,0,0"><Run Language="uk-ua" Text="Екран"/></TextBlock>
+                        <TextBox x:Name="Screen"
+                    FontSize="13"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"                            
+                    Foreground="White"
+                    CaretBrush="LightGray"
+                    BorderBrush="DarkGray"
+                    BorderThickness="0,0,0,2"
+                    Height="28"
+                    VerticalContentAlignment="Center"
+                    Margin="0,5,0,0"
+                    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                       Stretch="None"
+                       AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                       
+                        <TextBlock
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"><Run Language="uk-ua" Text="Процесор"/></TextBlock>
+                        <TextBox x:Name="Processor"
+                 FontSize="13"
+                 FontWeight="Medium"
+                 FontFamily="Montserrat"                            
+                 Foreground="White"
+                 CaretBrush="LightGray"
+                 BorderBrush="DarkGray"
+                 BorderThickness="0,0,0,2"
+                 Height="28"
+                 VerticalContentAlignment="Center"
+                 Margin="0,5,0,0"
+                 Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                    Stretch="None"
+                    AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                    
+                    
+                        <TextBlock
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"><Run Language="uk-ua" Text="Пам'ять"/></TextBlock>
+                        <TextBox x:Name="Memory"
+                 FontSize="13"
+                 FontWeight="Medium"
+                 FontFamily="Montserrat"                            
+                 Foreground="White"
+                 CaretBrush="LightGray"
+                 BorderBrush="DarkGray"
+                 BorderThickness="0,0,0,2"
+                 Height="28"
+                 VerticalContentAlignment="Center"
+                 Margin="0,5,0,0"
+                 Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                    Stretch="None"
+                    AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+               
+                        <TextBlock
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"><Run Language="uk-ua" Text="Камера"/></TextBlock>
+                        <TextBox x:Name="Camera"
+                 FontSize="13"
+                 FontWeight="Medium"
+                 FontFamily="Montserrat"                            
+                 Foreground="White"
+                 CaretBrush="LightGray"
+                 BorderBrush="DarkGray"
+                 BorderThickness="0,0,0,2"
+                 Height="28"
+                 VerticalContentAlignment="Center"
+                 Margin="0,5,0,0"
+                 Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                    Stretch="None"
+                    AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+             
+                        <TextBlock
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"><Run Language="uk-ua" Text="Батарея"/></TextBlock>
+                        <TextBox x:Name="Battery"
+                 FontSize="13"
+                 FontWeight="Medium"
+                 FontFamily="Montserrat"                            
+                 Foreground="White"
+                 CaretBrush="LightGray"
+                 BorderBrush="DarkGray"
+                 BorderThickness="0,0,0,2"
+                 Height="28"
+                 VerticalContentAlignment="Center"
+                 Margin="0,5,0,0"
+                 Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                    Stretch="None"
+                    AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                    
+                        <TextBlock
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"><Run Language="uk-ua" Text="Діагональ"/></TextBlock>
+                        <TextBox x:Name="Diagonal"
+                 FontSize="13"
+                 FontWeight="Medium"
+                 FontFamily="Montserrat"                            
+                 Foreground="White"
+                 CaretBrush="LightGray"
+                 BorderBrush="DarkGray"
+                 BorderThickness="0,0,0,2"
+                 Height="28"
+                 VerticalContentAlignment="Center"
+                 Margin="0,5,0,0"
+                 Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                    Stretch="None"
+                    AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+    Foreground="DarkGray"
+    FontSize="12"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                             
+    Margin="0,35,0,0"><Run Language="uk-ua" Text="Роздільна здатність"/></TextBlock>
+                        <TextBox x:Name="Resolution"
+    FontSize="13"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                            
+    Foreground="White"
+    CaretBrush="LightGray"
+    BorderBrush="DarkGray"
+    BorderThickness="0,0,0,2"
+    Height="28"
+    VerticalContentAlignment="Center"
+    Margin="0,5,0,0"
+    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+            Stretch="None"
+            AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+    Foreground="DarkGray"
+    FontSize="12"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                             
+    Margin="0,35,0,0"><Run Language="uk-ua" Text="Тип дисплею"/></TextBlock>
+                        <TextBox x:Name="Display_Type"
+    FontSize="13"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                            
+    Foreground="White"
+    CaretBrush="LightGray"
+    BorderBrush="DarkGray"
+    BorderThickness="0,0,0,2"
+    Height="28"
+    VerticalContentAlignment="Center"
+    Margin="0,5,0,0"
+    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+            Stretch="None"
+            AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+    Foreground="DarkGray"
+    FontSize="12"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                             
+    Margin="0,35,0,0"><Run Language="uk-ua" Text="Оперативна пам'ять"/></TextBlock>
+                        <TextBox x:Name="RAM"
+    FontSize="13"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                            
+    Foreground="White"
+    CaretBrush="LightGray"
+    BorderBrush="DarkGray"
+    BorderThickness="0,0,0,2"
+    Height="28"
+    VerticalContentAlignment="Center"
+    Margin="0,5,0,0"
+    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+            Stretch="None"
+            AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+    Foreground="DarkGray"
+    FontSize="12"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                             
+    Margin="0,35,0,0"><Run Language="uk-ua" Text="Об'єм накопичувача"/></TextBlock>
+                        <TextBox x:Name="Storage"
+    FontSize="13"
+    FontWeight="Medium"
+    FontFamily="Montserrat"                            
+    Foreground="White"
+    CaretBrush="LightGray"
+    BorderBrush="DarkGray"
+    BorderThickness="0,0,0,2"
+    Height="28"
+    VerticalContentAlignment="Center"
+    Margin="0,5,0,0"
+    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+            Stretch="None"
+            AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+
+                        <TextBlock
+                   Foreground="DarkGray"
+                   FontSize="12"
+                   FontWeight="Medium"
+                   FontFamily="Montserrat"                             
+                   Margin="0,35,0,0"><Run Language="uk-ua" Text="Ціна"/></TextBlock>
+                        <TextBox x:Name="Price"
+                    FontSize="13"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"                            
+                    Foreground="White"
+                    CaretBrush="LightGray"
+                    BorderBrush="DarkGray"
+                    BorderThickness="0,0,0,2"
+                    Height="28"
+                    VerticalContentAlignment="Center"
+                    Margin="0,5,0,0"
+                    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                       Stretch="None"
+                       AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock
+                      Foreground="DarkGray"
+                      FontSize="12"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"                             
+                      Margin="0,35,0,0"><Run Language="uk-ua" Text="К"/><Run Text="ількість"/><Run Language="uk-ua" Text=" товру на складі"/></TextBlock>
+
+                        <TextBox x:Name="Quantity_In_Stock"
+                    FontSize="13"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"                            
+                    Foreground="White"
+                    CaretBrush="LightGray"
+                    BorderBrush="DarkGray"
+                    BorderThickness="0,0,0,2"
+                    Height="28"
+                    VerticalContentAlignment="Center"
+                    Margin="0,5,0,0"
+                    Padding="20,0,0,0">
+                            <TextBox.Background>
+                                <ImageBrush 
+                       Stretch="None"
+                       AlignmentX="Left"/>
+                            </TextBox.Background>
+                        </TextBox>
+                        <TextBlock Text="Бренд"
+Foreground="DarkGray"
+FontSize="12"
+FontWeight="Medium"
+FontFamily="Montserrat"                             
+Margin="0,35,0,0"/>
+                        <ComboBox x:Name="Brand"
+          FontSize="13"
+          FontWeight="Medium"
+          FontFamily="Montserrat"
+          Foreground="Black"
+          BorderBrush="DarkGray"
+          BorderThickness="0,0,0,2"
+          Height="28"
+          VerticalContentAlignment="Center"
+          Margin="0,5,0,0"
+          Padding="20,0,0,0"/>
+
+                        <TextBlock Text="Категорія"
+                      Foreground="DarkGray"
+                      FontSize="12"
+                      FontWeight="Medium"
+                      FontFamily="Montserrat"                             
+                      Margin="0,35,0,0"/>
+
+                      <ComboBox x:Name="Category" SelectionChanged="Category_SelectionChanged"
+          FontSize="13"
+          FontWeight="Medium"
+          FontFamily="Montserrat"
+          Foreground="Black"
+          BorderBrush="DarkGray"
+          BorderThickness="0,0,0,2"
+          Height="28"
+          VerticalContentAlignment="Center"
+          Margin="0,5,0,0"
+          Padding="20,0,0,0"/>
+
+
+                            <TextBlock Text="Гарантійний період"
+                                  Foreground="DarkGray"
+                                  FontSize="12"
+                                  FontWeight="Medium"
+                                  FontFamily="Montserrat"                             
+                                  Margin="0,35,0,0"/>
+
+                            <TextBox x:Name="Warranty_Period"
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 FontFamily="Montserrat"                            
+                                 Foreground="White"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Center"
+                                 Margin="0,5,0,0"
+                                 Padding="20,0,0,0">
+                                <TextBox.Background>
+                                    <ImageBrush 
+                                    Stretch="None"
+                                    AlignmentX="Left"/>
+                                </TextBox.Background>
+                            </TextBox>
+
+                            <TextBlock Text="Колір"
+                                   Foreground="DarkGray"
+                                   FontSize="12"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"                             
+                                   Margin="0,35,0,0"/>
+                            <ComboBox x:Name="Color"
+                                  FontSize="13"
+                                  FontWeight="Medium"
+                                  FontFamily="Montserrat"
+                                  Foreground="Black"
+                                  BorderBrush="DarkGray"
+                                  BorderThickness="0,0,0,2"
+                                  Height="28"
+                                  VerticalContentAlignment="Center"
+                                  Margin="0,5,0,0"
+                                  Padding="20,0,0,0"/>
+                    </StackPanel>
+                </ScrollViewer >
+
+                <Button x:Name="btnClose14" Style="{StaticResource IconButtonsStyle}" Content="{DynamicResource close}" Click="btnClose1_Click" Tag="IsCloseButton" Margin="517,10,10,39" Width="NaN"/>
+
+            </Grid>
+        </Border>
+
+    </Border>
+</Window>

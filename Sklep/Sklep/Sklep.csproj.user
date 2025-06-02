@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Edit.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditOrder.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Insert.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="log.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainWindowAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Order.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\Ordersview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\PageAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProductInfoWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Edit.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditOrder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Insert.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="log.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindowAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Order.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\Ordersview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\PageAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductInfoWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

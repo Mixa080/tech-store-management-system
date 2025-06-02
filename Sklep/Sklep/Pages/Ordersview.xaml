@@ -1,0 +1,123 @@
+﻿<Page x:Class="Sklep.Pages.OrdersView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sklep.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="OrdersView">
+
+    <Grid>
+        <Border CornerRadius="5" Background="{DynamicResource SecundaryBackgroundColor}"/>
+
+        <ListView x:Name="ordersDataGrid" Margin="10,60,10,0" VerticalAlignment="Top" Height="333" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" MouseDoubleClick="OrdersListView_MouseDoubleClick" FontSize="13">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="Foreground" Value="Black"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Номер Замовлення" DisplayMemberBinding="{Binding Order_Number}"/>
+                    <GridViewColumn Header="Дата Замовлення">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Order_Date, StringFormat=\{0:yyyy-MM-dd\}}" />
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Загальна Вартість" DisplayMemberBinding="{Binding Total_Order_Cost}"/>
+
+                    <GridViewColumn Header="Ім'я Клієнта" DisplayMemberBinding="{Binding Client_Name}"/>
+                    <GridViewColumn Header="Назва Продукту" DisplayMemberBinding="{Binding Product_Name}"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,10,0,0" Width="780" Height="40">
+            <TextBlock Text="Від: " Margin="5" Foreground="White"/>
+            <DatePicker x:Name="startDatePicker" Margin="5"/>
+            <TextBlock Text="До: " Margin="5" Foreground="White"/>
+            <DatePicker x:Name="endDatePicker" Margin="5"/>
+
+            <TextBox x:Name="searchTextBox" Text="Пошук за номером замовлення" Margin="5" Foreground="Gray"
+         GotFocus="SearchTextBox_GotFocus" LostFocus="SearchTextBox_LostFocus"
+         Width="200" HorizontalAlignment="Left"/>
+            <Button x:Name="btnResetFilters"
+        BorderThickness="0"
+        Content="Скинути фільтр"
+        Foreground="White"
+        FontSize="12"
+        FontFamily="Montserrat"
+        Cursor="Hand"
+        Click="ResetFiltersButton_Click" Width="126" Height="40">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#FF398E4A"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#28AEED"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                    CornerRadius="15"
+                    Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            <Button x:Name="btnFilter"
+        BorderThickness="0"
+        Content="Пошук"
+        Foreground="White"
+        FontSize="12"
+        FontFamily="Montserrat"
+        Cursor="Hand"
+        Click="FilterButton_Click" Width="101" Height="40" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="#FF398E4A"/>
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="#28AEED"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25"
+                    CornerRadius="15"
+                    Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                  HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

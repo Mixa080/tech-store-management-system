@@ -1,0 +1,611 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\statistics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\statistics.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\statistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\statistics.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\admin\\salesstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\admin\\salesstatistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\order.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\order.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\pageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\pageadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\productinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\productinfowindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\productinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\productinfowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\edit.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\insert.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\insert.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\insert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\insert.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\pageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\pageadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\admin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\admin\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\ordersview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\ordersview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\edit.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\mainwindowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\mainwindowadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\pages\\ordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\pages\\ordersview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\mainwindowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\mainwindowadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\order.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\order.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\editorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\editorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\editorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\editorder.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\helper\\bdhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\helper\\bdhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\admin\\ord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\admin\\ord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\admin\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\admin\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mixa0\\AppData\\Local\\Temp\\.vsdbgsrc\\bf181cacff03ee9afb8aeba00dc7c836930532be0d5d44476e601f59af11bfe8\\NavigationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\log.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\log.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\helper\\sklepoperat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\helper\\sklepoperat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\log.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\log.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\user\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|d:\\\u0432\u0430\u0432\u0430\\24.05\\sklep-20240501t093750z-001_______12\\sklep\\sklep\\user\\userda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857455D8-40BB-4F0B-9D2D-38402F026663}|Sklep\\Sklep.csproj|solutionrelative:sklep\\user\\userda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mixa0\\.nuget\\packages\\microsoft.ui.xaml\\2.8.6\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\App.xaml",
+              "RelativeDocumentMoniker": "Sklep\\App.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\App.xaml",
+              "RelativeToolTip": "Sklep\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T11:55:35.445Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Dashboard.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Dashboard.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Dashboard.xaml",
+              "RelativeToolTip": "Sklep\\Pages\\Dashboard.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:40:51.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Statistics.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Statistics.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Statistics.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Statistics.xaml.cs",
+              "RelativeToolTip": "Sklep\\Pages\\Statistics.xaml.cs",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAmwLkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:07:22.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Statistics.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Statistics.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Statistics.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Statistics.xaml",
+              "RelativeToolTip": "Sklep\\Pages\\Statistics.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T13:49:45.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SalesStatistic.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\SalesStatistic.cs",
+              "RelativeDocumentMoniker": "Sklep\\admin\\SalesStatistic.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\SalesStatistic.cs",
+              "RelativeToolTip": "Sklep\\admin\\SalesStatistic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T15:17:29.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Order.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Order.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Order.xaml.cs",
+              "RelativeToolTip": "Sklep\\Order.xaml.cs",
+              "ViewState": "AQIAANIAAAAAAAAAAAAIwPgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:57:10.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dashboard.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Dashboard.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Dashboard.xaml.cs",
+              "RelativeToolTip": "Sklep\\Pages\\Dashboard.xaml.cs",
+              "ViewState": "AQIAAN4AAAAAAAAAAAAUwAMBAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T10:04:05.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductInfoWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\ProductInfoWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\ProductInfoWindow.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\ProductInfoWindow.xaml.cs",
+              "RelativeToolTip": "Sklep\\ProductInfoWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T09:18:29.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PageAdmin.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\PageAdmin.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\PageAdmin.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\PageAdmin.xaml",
+              "RelativeToolTip": "Sklep\\Pages\\PageAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T19:37:10.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductInfoWindow.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\ProductInfoWindow.xaml",
+              "RelativeDocumentMoniker": "Sklep\\ProductInfoWindow.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\ProductInfoWindow.xaml",
+              "RelativeToolTip": "Sklep\\ProductInfoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T09:13:19.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Insert.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Insert.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Insert.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Insert.xaml",
+              "RelativeToolTip": "Sklep\\Insert.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T13:12:41.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Edit.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Edit.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Edit.xaml.cs",
+              "RelativeToolTip": "Sklep\\Edit.xaml.cs",
+              "ViewState": "AQIAAFACAAAAAAAAAAAiwIQCAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T18:02:59.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PageAdmin.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\PageAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\PageAdmin.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\PageAdmin.xaml.cs",
+              "RelativeToolTip": "Sklep\\Pages\\PageAdmin.xaml.cs",
+              "ViewState": "AQIAAJYAAAAAAAAAAAAmwLUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T14:49:31.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Insert.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Insert.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Insert.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Insert.xaml.cs",
+              "RelativeToolTip": "Sklep\\Insert.xaml.cs",
+              "ViewState": "AQIAAFoBAAAAAAAAAAAiwI8BAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T14:19:19.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\Product.cs",
+              "RelativeDocumentMoniker": "Sklep\\admin\\Product.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\Product.cs",
+              "RelativeToolTip": "Sklep\\admin\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA7wCQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:14:22.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Ordersview.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Ordersview.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Ordersview.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Ordersview.xaml.cs",
+              "RelativeToolTip": "Sklep\\Pages\\Ordersview.xaml.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAwwIAAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T19:53:07.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Edit.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Edit.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Edit.xaml",
+              "RelativeToolTip": "Sklep\\Edit.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-06T17:58:41.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindowAdmin.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindowAdmin.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\MainWindowAdmin.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindowAdmin.xaml.cs",
+              "RelativeToolTip": "Sklep\\MainWindowAdmin.xaml.cs",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAYwMIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T14:04:37.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ordersview.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Ordersview.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Pages\\Ordersview.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Pages\\Ordersview.xaml",
+              "RelativeToolTip": "Sklep\\Pages\\Ordersview.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-27T13:47:35.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindowAdmin.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindowAdmin.xaml",
+              "RelativeDocumentMoniker": "Sklep\\MainWindowAdmin.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindowAdmin.xaml",
+              "RelativeToolTip": "Sklep\\MainWindowAdmin.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-28T13:41:16.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Order.xaml",
+              "RelativeDocumentMoniker": "Sklep\\Order.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Order.xaml",
+              "RelativeToolTip": "Sklep\\Order.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-28T07:17:50.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "log.g.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs",
+              "RelativeDocumentMoniker": "Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs",
+              "RelativeToolTip": "Sklep\\obj\\Debug\\net8.0-windows\\log.g.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAswCgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T07:37:52.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditOrder.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\EditOrder.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\EditOrder.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\EditOrder.xaml.cs",
+              "RelativeToolTip": "Sklep\\EditOrder.xaml.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAiwFwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:23:32.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EditOrder.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\EditOrder.xaml",
+              "RelativeDocumentMoniker": "Sklep\\EditOrder.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\EditOrder.xaml",
+              "RelativeToolTip": "Sklep\\EditOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T12:53:31.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BDHelper.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Helper\\BDHelper.cs",
+              "RelativeDocumentMoniker": "Sklep\\Helper\\BDHelper.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Helper\\BDHelper.cs",
+              "RelativeToolTip": "Sklep\\Helper\\BDHelper.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvyEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:46:26.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Sklep\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAlwKcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:41:59.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ord.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\ord.cs",
+              "RelativeDocumentMoniker": "Sklep\\admin\\ord.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\ord.cs",
+              "RelativeToolTip": "Sklep\\admin\\ord.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T07:21:50.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "Sklep\\admin\\CategoryModel.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\admin\\CategoryModel.cs",
+              "RelativeToolTip": "Sklep\\admin\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T14:13:52.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Sklep\\MainWindow.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\MainWindow.xaml",
+              "RelativeToolTip": "Sklep\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-28T11:20:11.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "log.xaml",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\log.xaml",
+              "RelativeDocumentMoniker": "Sklep\\log.xaml",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\log.xaml",
+              "RelativeToolTip": "Sklep\\log.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T15:08:41.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "C:\\Users\\mixa0\\AppData\\Local\\Temp\\.vsdbgsrc\\bf181cacff03ee9afb8aeba00dc7c836930532be0d5d44476e601f59af11bfe8\\NavigationService.cs",
+              "ToolTip": "C:\\Users\\mixa0\\AppData\\Local\\Temp\\.vsdbgsrc\\bf181cacff03ee9afb8aeba00dc7c836930532be0d5d44476e601f59af11bfe8\\NavigationService.cs [Read Only]",
+              "ViewState": "AQIAAA0EAAAAAAAAAAAEwB4EAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T09:51:30.775Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SklepOperat.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Helper\\SklepOperat.cs",
+              "RelativeDocumentMoniker": "Sklep\\Helper\\SklepOperat.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\Helper\\SklepOperat.cs",
+              "RelativeToolTip": "Sklep\\Helper\\SklepOperat.cs",
+              "ViewState": "AQIAAP0AAAAAAAAAAAAcwCcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:15:50.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "log.xaml.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\log.xaml.cs",
+              "RelativeDocumentMoniker": "Sklep\\log.xaml.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\log.xaml.cs",
+              "RelativeToolTip": "Sklep\\log.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwEIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:15:57.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\User\\User.cs",
+              "RelativeDocumentMoniker": "Sklep\\User\\User.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\User\\User.cs",
+              "RelativeToolTip": "Sklep\\User\\User.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvygAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:19:38.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDA.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\User\\UserDA.cs",
+              "RelativeDocumentMoniker": "Sklep\\User\\UserDA.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\User\\UserDA.cs",
+              "RelativeToolTip": "Sklep\\User\\UserDA.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAADwvykAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T15:18:34.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Order.g.cs",
+              "DocumentMoniker": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs",
+              "RelativeDocumentMoniker": "Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs",
+              "ToolTip": "D:\\\u0432\u0430\u0432\u0430\\24.05\\Sklep-20240501T093750Z-001_______12\\Sklep\\Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs",
+              "RelativeToolTip": "Sklep\\obj\\Debug\\net8.0-windows\\Order.g.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAADgv2AAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T14:53:27.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\mixa0\\.nuget\\packages\\microsoft.ui.xaml\\2.8.6\\readme.txt",
+              "ToolTip": "C:\\Users\\mixa0\\.nuget\\packages\\microsoft.ui.xaml\\2.8.6\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-03T16:02:38.627Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
